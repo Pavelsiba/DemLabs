@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#2E3138] w-[1280px] mx-auto flex-wrap h-[720px] ;
+}
+
+@layer components {
+  .link {
+    @apply flex items-center h-[52px] py-0.5 pl-7 mr-2.5 rounded-r-2xl;
+  }
+  .sidebar {
+    @apply bg-[#2D3037] text-cyan-100 w-[180px] h-[673px] space-y-6 drop-shadow-[5px_5px_10px_rgba(8,7,13,0.42)] shadow-[inset_1px_1px_0px_rgba(82,77,100,1)] rounded-br-2xl;
+  }
+
+  .search {
+    @apply bg-[#2D3037] text-white px-6 py-4 rounded-bl-2xl w-[1096px] ml-1 drop-shadow-[5px_5px_10px_rgba(8,7,13,0.42)] shadow-[inset_1px_1px_0px_rgba(82,77,100,1)];
+  }
+}
