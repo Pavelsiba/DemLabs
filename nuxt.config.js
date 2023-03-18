@@ -1,4 +1,11 @@
 export default {
+  ssr: false,
+
+  target: 'static',
+
+  router: {
+    base: '/demlabs/'
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: "demlabs",
@@ -12,6 +19,7 @@ export default {
       { name: "format-detection", content: "telephone=no" },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -36,5 +44,5 @@ export default {
   modules: ["@nuxtjs/tailwindcss"],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {}
 };
