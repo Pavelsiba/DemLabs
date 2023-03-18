@@ -100,12 +100,4 @@ export default {
 a:hover {
   box-shadow: 1px 1px 0px rgba(107, 102, 126, 0.49), inset 3px 3px 5px rgba(8, 7, 13, 0.25);
 }
-
-/* .font-nav {
-  font-family: "Quicksand", sans-serif;
-  font-style: normal;
-  font-size: 13px;
-  line-height: 16px;
-  color: white;
-} */
 </style>
